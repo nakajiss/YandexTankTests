@@ -1,0 +1,42 @@
+2021-07-19 05:17:15.872 +0000 [info] [] Start
+2021-07-19 05:17:26.262 +0000 [error] [benchmark_io 048] format error
+2021-07-19 05:17:30.939 +0000 [error] [benchmark_io 045] SSL_read: Connection timed out
+2021-07-19 05:17:31.300 +0000 [error] [benchmark_io 119] SSL_connect: Connection timed out
+2021-07-19 05:17:31.479 +0000 [error] [benchmark_io 122] SSL_connect: Connection timed out
+2021-07-19 05:17:31.570 +0000 [error] [benchmark_io 124] SSL_connect: Connection timed out
+2021-07-19 05:17:31.765 +0000 [error] [benchmark_io 054] SSL_read: Connection timed out
+2021-07-19 05:17:37.759 +0000 [error] [benchmark_io 055] SSL_read: Connection timed out
+2021-07-19 05:17:39.275 +0000 [error] [benchmark_io 227] SSL_connect: Operation canceled
+2021-07-19 05:17:39.275 +0000 [error] [phantom_logger] bq_sleep: Operation canceled
+2021-07-19 05:17:39.275 +0000 [error] [monitor_io] bq_sleep: Operation canceled
+2021-07-19 05:17:39.275 +0000 [error] [benchmark_io stream_method brief_logger] bq_sleep: Operation canceled
+2021-07-19 05:17:39.275 +0000 [error] [monitor_io] bq_sleep: Operation canceled
+2021-07-19 05:17:39.275 +0000 [error] [benchmark_io 115] SSL_read: Operation canceled
+2021-07-19 05:17:39.275 +0000 [error] [benchmark_io 198] poll: Operation canceled
+2021-07-19 05:17:39.275 +0000 [error] [benchmark_io 230] SSL_connect: Operation canceled
+2021-07-19 05:17:39.275 +0000 [error] [benchmark_io 207] SSL_read: Operation canceled
+2021-07-19 05:17:39.275 +0000 [error] [benchmark_io 191] poll: Operation canceled
+2021-07-19 05:17:39.275 +0000 [error] [benchmark_io 210] SSL_read: Operation canceled
+2021-07-19 05:17:39.275 +0000 [error] [benchmark_io 194] SSL_read: Operation canceled
+2021-07-19 05:17:39.275 +0000 [error] [benchmark_io 229] SSL_connect: Operation canceled
+2021-07-19 05:17:39.275 +0000 [error] [benchmark_io 213] SSL_read: Operation canceled
+2021-07-19 05:17:39.275 +0000 [error] [benchmark_io 130] SSL_read: Operation canceled
+2021-07-19 05:17:39.275 +0000 [error] [benchmark_io 200] SSL_read: Operation canceled
+2021-07-19 05:17:39.275 +0000 [error] [benchmark_io 193] SSL_read: Operation canceled
+2021-07-19 05:17:39.275 +0000 [error] [benchmark_io 203] SSL_read: Operation canceled
+2021-07-19 05:17:39.275 +0000 [error] [benchmark_io 196] SSL_read: Operation canceled
+2021-07-19 05:17:39.275 +0000 [error] [benchmark_io 209] SSL_read: Operation canceled
+2021-07-19 05:17:39.275 +0000 [error] [benchmark_io 225] poll: Operation canceled
+2021-07-19 05:17:39.276 +0000 [error] [benchmark_io 228] poll: Operation canceled
+2021-07-19 05:17:39.276 +0000 [error] [benchmark_io 212] SSL_read: Operation canceled
+2021-07-19 05:17:39.276 +0000 [error] [benchmark_io 199] SSL_read: Operation canceled
+2021-07-19 05:17:39.276 +0000 [error] [benchmark_io 231] connect: Operation canceled
+2021-07-19 05:17:39.276 +0000 [error] [benchmark_io 215] poll: Operation canceled
+2021-07-19 05:17:39.276 +0000 [error] [benchmark_io 218] SSL_read: Operation canceled
+2021-07-19 05:17:39.276 +0000 [error] [benchmark_io 205] SSL_read: Operation canceled
+2021-07-19 05:17:39.276 +0000 [error] [benchmark_io 208] SSL_read: Operation canceled
+2021-07-19 05:17:39.276 +0000 [error] [benchmark_io 224] poll: Operation canceled
+2021-07-19 05:17:39.277 +0000 [error] [benchmark_io] cond-wait: Operation canceled
+2021-07-19 05:17:39.278 +0000 [error] [benchmark_io 223] SSL_read: Operation canceled
+2021-07-19 05:17:39.278 +0000 [error] [benchmark_io 226] poll: Operation canceled
+2021-07-19 05:17:39.280 +0000 [info] [] Exit

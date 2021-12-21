@@ -1,0 +1,26 @@
+android: {enabled: false, package: yandextank.plugins.Android}
+autostop:
+  autostop: ['http(5xx,10%,5s)']
+  enabled: true
+  package: yandextank.plugins.Autostop
+bfg: {enabled: false, package: yandextank.plugins.Bfg}
+console: {enabled: true, package: yandextank.plugins.Console}
+core: {}
+influx: {enabled: false, package: yandextank.plugins.Influx}
+jmeter: {enabled: false, package: yandextank.plugins.JMeter}
+json_report: {enabled: true, package: yandextank.plugins.JsonReport}
+overload: {enabled: true, package: yandextank.plugins.DataUploader, token_file: token.txt}
+phantom:
+  address: 52.218.245.219:80
+  enabled: true
+  header_http: '1.1'
+  headers: ['Host: online.sim.s3-website-us-west-2.amazonaws.com', 'Connection: closed']
+  load_profile: {load_type: rps, schedule: 'line(5, 30, 1m)'}
+  package: yandextank.plugins.Phantom
+  ssl: true
+  timeout: 10s
+  uris: [/]
+rcassert: {enabled: true, package: yandextank.plugins.RCAssert}
+rcheck: {enabled: true, package: yandextank.plugins.ResourceCheck}
+shellexec: {enabled: true, package: yandextank.plugins.ShellExec}
+telegraf: {enabled: false, package: yandextank.plugins.Telegraf}
