@@ -1,5 +1,5 @@
 #!/bin/bash
-cd ~/QA/yandex.tank/data/Phantom/
+cd /Phantom/
 RESULT=$(docker build . | grep 'built' | cut -c 20-)
 docker run --rm -it $RESULT > log.txt
 docker rmi $RESULT
