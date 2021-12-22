@@ -3,20 +3,18 @@ overload:
   package: yandextank.plugins.DataUploader
   token_file: "token.txt"
 phantom:
-  address: example.com:443
+  timeout: 10s
+  address: 178.248.237.139:443
   header_http: "1.1"
   headers:
-    - "[example.com]"
-    - "[Connection: close]"
+    - 'Host: onlinesim.ru'
+    - 'Connection: closed'
   uris:
     - /
   load_profile:
     load_type: rps
     schedule: line(5, 30, 1m)
   ssl: true
-autostop:
-  autostop:
-    - http(5xx,10%,5s)
 console:
   enabled: true
 telegraf:

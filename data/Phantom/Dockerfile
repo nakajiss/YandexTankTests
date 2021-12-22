@@ -1,7 +1,7 @@
 FROM direvius/yandex-tank
 LABEL maintainer="Nakajiss"
 COPY . .
-ENTRYPOINT ["yandex-tank","-c","load1.yaml"]
+ENTRYPOINT ["yandex-tank","-c","load.yaml"]
 
 
 
