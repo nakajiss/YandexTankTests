@@ -3,17 +3,17 @@ overload:
   package: yandextank.plugins.DataUploader
   token_file: "token.txt"
 phantom:
-  address: onlinesim.ru:443
+  address: online.sim.s3-website-us-west-2.amazonaws.com
   header_http: "1.1"
   headers:
-    - "[onlinesim.ru]"
+    - "[Host: online.sim.s3-website-us-west-2.amazonaws.com]"
     - "[Connection: close]"
   uris:
     - /
   load_profile:
     load_type: rps
     schedule: line(5, 30, 1m)
-  ssl: true
+  #ssl: true
 autostop:
   autostop:
     - http(5xx,10%,5s)
